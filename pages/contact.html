@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>byFrampe</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../assets/imagenes/favicon.png" type="favicon">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/index.html"><img src="../assets/imagenes/logo.png" alt="logo" class="logo"></a>
+        <nav class="nav">
+            <a href="/pages/storage.html">Storage</a>
+            <a href="/pages/about.html">About</a>
+            <a href="/pages/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <form action="/action_page.php">
+        <fieldset class="fieldset_formularios">
+
+                <!-- Campo del nombre -->
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="name" id="name" name="name" required>
+                </p>
+
+                <!-- Campo del email -->
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required>
+                </p>
+    
+                <!-- Campo del teléfono -->
+                <p>
+                    <label for="phone">Phone</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+               
+                <!-- Campo de la profesión -->
+                <p>
+                    <label for="question">Question for:</label><br>
+                    <input type="radio" id="question" name="question" value="artdirector">Art Director<br>
+                    <input type="radio" id="question" name="question" value="fullstack">Full Stack
+                </p>
+            
+                <!-- Campo del asunto -->
+                <p>
+                    <label for="subject">Subject</label><br>
+                    <input type="text" id="subject" name="subject">
+                </p>
+                
+                <!-- Campo del mensaje -->
+                <p>
+                    <label for="message">Your message</label><br>
+                    <textarea name="message" cols="50" rows="10" name="message" id="message"></textarea>
+                </p>
+
+                <input type="submit" id="send" value="send">
+            
+        </fieldset>
+    </form>
+    
+    <div id="footer">
+        <footer class="footer">
+
+            <section class="redes_sociales">
+                <a href="https://www.instagram.com/frampee/"><img src="/assets/imagenes/instagram.png" alt="icono_instagram" class="icono_instagram"></a>
+                <a href="http://www.linkedin.com/in/francisco-javier-fernández-sánchez-724993170"><img src="/assets/imagenes/linkedin.png" alt="icono_linkedin" class="icono_linkedin"></a>
+            </section>
+
+            <section class="copyrights">
+                <p>&#9400 Theme by Frampe</p>
+            </section>
+            
+        </footer>
+    </div>
+</body>
+</html>
