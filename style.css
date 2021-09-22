@@ -58,24 +58,24 @@ body{
     width: 500px;
     height: 500px;
     margin-right: 50px;
-    background: url(/assets/imagenes/art_director_before.png) no-repeat center;
+    background: url(./assets/imagenes/art_director_before.png) no-repeat center;
 }
 
 .art_director:hover{
     margin-right: 50px;
-    background: url(/assets/imagenes/art_director_after.png) no-repeat center;
+    background: url(./assets/imagenes/art_director_after.png) no-repeat center;
 }
 
 .full_stack{
     width: 500px;
     height: 500px;
     margin-left: 50px;
-    background: url(/assets/imagenes/full_stack_before.png) no-repeat center;
+    background: url(./assets/imagenes/full_stack_before.png) no-repeat center;
 }
 
 .full_stack:hover{
     margin-left: 50px;
-    background: url(/assets/imagenes/full_stack_after.png) no-repeat center;
+    background: url(./assets/imagenes/full_stack_after.png) no-repeat center;
 }
 
 fieldset{
